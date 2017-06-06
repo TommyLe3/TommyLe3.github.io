@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RoyalOakSteakhouse Menu</title>
+<link href="Menu Style Sheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <stlye>
+    body{
+	background-color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:#333;   
+}
+
+.topnav a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 19px;
+ 
+}
+a{
+	color: rgba(0,0,0,1.00);
+	font-size: 40px
+}
+h1{
+  text-align: center;
+  color:#C36241;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-size: 300%;
+	font-style: Bold;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 26.4px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #C36241;
+    color: white;
+}
+img{
+position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#mySidenav a {
+	
+    position: fixed;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+#Home {
+    top: 20px;
+    background-color: #333;
+}
+
+
+  </stlye>
+<h1>Royal Oak Steakhouse </h1>
+
+<center>
+<div class="topnav a">
+  <a href="index.html">Home</a> 
+  <a href="Menu.html" class="active">Menu</a>
+  <a href="Location.html">Location</a>
+</div>
+<div class="menu-body">
+	<div class="menu-item">
+			<div class="menu-item-name">
+				Seared Steak
+			</div>
+			<div class="menu-item-price">
+				$50
+			</div>
+		</div>
+	</div>
+    <div class="menu-item">
+			<div class="menu-item-name">
+				Seared steak
+			</div>
+			<div class="menu-item-price">
+				$50
+			</div>
+  </div>
+		<div class="menu-item">
+			<div class="menu-item-name">
+				pepper steak
+			</div>
+			<div class="menu-item-price">
+				$50
+			</div>
+		</div>
+		<div class="menu-item">
+			<div class="menu-item-name">
+				Simmered steak
+			</div>
+		</div>
+</center>
+<div id="mySidenav" class="sidenav">
+  <a href="index.html" id="Home">Home</a>
+</div>
+</body>
+</html>
